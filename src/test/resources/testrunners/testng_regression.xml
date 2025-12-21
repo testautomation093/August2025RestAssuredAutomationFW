@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="API Regression August 2025 Suite" thread-count="1" verbose="4">
+
+	<test name="Go Rest Get API Test">
+		<parameter name="baseURI" value="https://gorest.co.in" />
+
+		<classes>
+			<class name="com.qa.gorest.tests.GetUserTest" />
+
+		</classes>
+	</test>
+
+	<test name="Go Rest Create API Test">
+		<parameter name="baseURI" value="https://gorest.co.in" />
+
+		<classes>
+			<class name="com.qa.gorest.tests.CreateUserTest" />
+
+		</classes>
+	</test>
+
+
+	<test name="Fake Store Product API Test">
+		<parameter name="baseURI" value="https://fakestoreapi.com" />
+
+		<classes>
+			<class name="com.qa.gorest.tests.GetProductAPITest" />
+
+		</classes>
+	</test>
+
+	<test name="HTTP Bin Org API Test">
+		<parameter name="baseURI" value="https://httpbin.org" />
+
+		<classes>
+			<class name="com.qa.gorest.tests.HttpBinOrgAPITest" />
+
+		</classes>
+	</test>
+	
+	
+	<test name="Schema Validation API Test">
+		<parameter name="baseURI" value="https://gorest.co.in" />
+
+		<classes>
+			<class name="com.qa.gorest.tests.APISchemaValidationTest" />
+
+		</classes>
+	</test>
+
+</suite>	

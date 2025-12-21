@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="11" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-21T16:06:48 IST" name="API Regression August 2025 Suite" finished-at="2025-12-21T16:07:18 IST" duration-ms="29998">
+    <groups>
+    </groups>
+    <test started-at="2025-12-21T16:06:48 IST" name="Go Rest Get API Test" finished-at="2025-12-21T16:06:55 IST" duration-ms="7209">
+      <class name="com.qa.gorest.tests.GetUserTest">
+        <test-method is-config="true" signature="setUP(java.lang.String)[pri:0, instance:com.qa.gorest.tests.GetUserTest@642a7222]" started-at="2025-12-21T16:06:48 IST" name="setUP" finished-at="2025-12-21T16:06:49 IST" duration-ms="492" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://gorest.co.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method is-config="true" signature="getUserSetUp()[pri:0, instance:com.qa.gorest.tests.GetUserTest@642a7222]" started-at="2025-12-21T16:06:49 IST" name="getUserSetUp" finished-at="2025-12-21T16:06:49 IST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserSetUp -->
+        <test-method signature="getUserWithQueryParam()[pri:1, instance:com.qa.gorest.tests.GetUserTest@642a7222]" started-at="2025-12-21T16:06:49 IST" name="getUserWithQueryParam" finished-at="2025-12-21T16:06:52 IST" duration-ms="2905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserWithQueryParam -->
+        <test-method is-config="true" signature="getUserSetUp()[pri:0, instance:com.qa.gorest.tests.GetUserTest@642a7222]" started-at="2025-12-21T16:06:52 IST" name="getUserSetUp" finished-at="2025-12-21T16:06:52 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserSetUp -->
+        <test-method signature="getSingleUser()[pri:2, instance:com.qa.gorest.tests.GetUserTest@642a7222]" started-at="2025-12-21T16:06:52 IST" name="getSingleUser" finished-at="2025-12-21T16:06:54 IST" duration-ms="2178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSingleUser -->
+        <test-method is-config="true" signature="getUserSetUp()[pri:0, instance:com.qa.gorest.tests.GetUserTest@642a7222]" started-at="2025-12-21T16:06:54 IST" name="getUserSetUp" finished-at="2025-12-21T16:06:54 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserSetUp -->
+        <test-method signature="getAllUserTest()[pri:3, instance:com.qa.gorest.tests.GetUserTest@642a7222]" started-at="2025-12-21T16:06:54 IST" name="getAllUserTest" description="This test case is all about Fetch All User Details" finished-at="2025-12-21T16:06:55 IST" duration-ms="1258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUserTest -->
+      </class> <!-- com.qa.gorest.tests.GetUserTest -->
+    </test> <!-- Go Rest Get API Test -->
+    <test started-at="2025-12-21T16:06:55 IST" name="Go Rest Create API Test" finished-at="2025-12-21T16:07:14 IST" duration-ms="18662">
+      <class name="com.qa.gorest.tests.CreateUserTest">
+        <test-method is-config="true" signature="setUP(java.lang.String)[pri:0, instance:com.qa.gorest.tests.CreateUserTest@7905a0b8]" started-at="2025-12-21T16:06:55 IST" name="setUP" finished-at="2025-12-21T16:06:55 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://gorest.co.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method is-config="true" signature="createUserSetUp()[pri:0, instance:com.qa.gorest.tests.CreateUserTest@7905a0b8]" started-at="2025-12-21T16:06:56 IST" name="createUserSetUp" finished-at="2025-12-21T16:06:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserSetUp -->
+        <test-method signature="createUserTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.gorest.tests.CreateUserTest@7905a0b8]" started-at="2025-12-21T16:06:56 IST" name="createUserTest" data-provider="getUserTestSheetData" finished-at="2025-12-21T16:06:59 IST" duration-ms="2736" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ravi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+        <test-method is-config="true" signature="createUserSetUp()[pri:0, instance:com.qa.gorest.tests.CreateUserTest@7905a0b8]" started-at="2025-12-21T16:06:59 IST" name="createUserSetUp" finished-at="2025-12-21T16:06:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserSetUp -->
+        <test-method signature="createUserTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.gorest.tests.CreateUserTest@7905a0b8]" started-at="2025-12-21T16:06:59 IST" name="createUserTest" data-provider="getUserTestSheetData" finished-at="2025-12-21T16:07:01 IST" duration-ms="2096" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nishant]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[female]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[inactive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+        <test-method is-config="true" signature="createUserSetUp()[pri:0, instance:com.qa.gorest.tests.CreateUserTest@7905a0b8]" started-at="2025-12-21T16:07:01 IST" name="createUserSetUp" finished-at="2025-12-21T16:07:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserSetUp -->
+        <test-method signature="createUserTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.gorest.tests.CreateUserTest@7905a0b8]" started-at="2025-12-21T16:07:01 IST" name="createUserTest" data-provider="getUserTestSheetData" finished-at="2025-12-21T16:07:12 IST" duration-ms="10810" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mahesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[female]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[inactive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+        <test-method is-config="true" signature="createUserSetUp()[pri:0, instance:com.qa.gorest.tests.CreateUserTest@7905a0b8]" started-at="2025-12-21T16:07:12 IST" name="createUserSetUp" finished-at="2025-12-21T16:07:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserSetUp -->
+        <test-method signature="createUserTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.gorest.tests.CreateUserTest@7905a0b8]" started-at="2025-12-21T16:07:12 IST" name="createUserTest" data-provider="getUserTestSheetData" finished-at="2025-12-21T16:07:14 IST" duration-ms="2087" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Aparna]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[female]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+      </class> <!-- com.qa.gorest.tests.CreateUserTest -->
+    </test> <!-- Go Rest Create API Test -->
+    <test started-at="2025-12-21T16:07:14 IST" name="Fake Store Product API Test" finished-at="2025-12-21T16:07:15 IST" duration-ms="740">
+      <class name="com.qa.gorest.tests.GetProductAPITest">
+        <test-method is-config="true" signature="setUP(java.lang.String)[pri:0, instance:com.qa.gorest.tests.GetProductAPITest@6ca18a14]" started-at="2025-12-21T16:07:14 IST" name="setUP" finished-at="2025-12-21T16:07:14 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://fakestoreapi.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method is-config="true" signature="getProductSetUp()[pri:0, instance:com.qa.gorest.tests.GetProductAPITest@6ca18a14]" started-at="2025-12-21T16:07:14 IST" name="getProductSetUp" finished-at="2025-12-21T16:07:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductSetUp -->
+        <test-method signature="getAllProductInfoTest()[pri:0, instance:com.qa.gorest.tests.GetProductAPITest@6ca18a14]" started-at="2025-12-21T16:07:14 IST" name="getAllProductInfoTest" finished-at="2025-12-21T16:07:15 IST" duration-ms="729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllProductInfoTest -->
+      </class> <!-- com.qa.gorest.tests.GetProductAPITest -->
+    </test> <!-- Fake Store Product API Test -->
+    <test started-at="2025-12-21T16:07:15 IST" name="HTTP Bin Org API Test" finished-at="2025-12-21T16:07:16 IST" duration-ms="1423">
+      <class name="com.qa.gorest.tests.HttpBinOrgAPITest">
+        <test-method is-config="true" signature="setUP(java.lang.String)[pri:0, instance:com.qa.gorest.tests.HttpBinOrgAPITest@64ec96c6]" started-at="2025-12-21T16:07:15 IST" name="setUP" finished-at="2025-12-21T16:07:15 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://httpbin.org]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method is-config="true" signature="httpBinOrgUserSetUp()[pri:0, instance:com.qa.gorest.tests.HttpBinOrgAPITest@64ec96c6]" started-at="2025-12-21T16:07:15 IST" name="httpBinOrgUserSetUp" finished-at="2025-12-21T16:07:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- httpBinOrgUserSetUp -->
+        <test-method signature="getDataFromBinOrg()[pri:0, instance:com.qa.gorest.tests.HttpBinOrgAPITest@64ec96c6]" started-at="2025-12-21T16:07:15 IST" name="getDataFromBinOrg" finished-at="2025-12-21T16:07:16 IST" duration-ms="1410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDataFromBinOrg -->
+      </class> <!-- com.qa.gorest.tests.HttpBinOrgAPITest -->
+    </test> <!-- HTTP Bin Org API Test -->
+    <test started-at="2025-12-21T16:07:16 IST" name="Schema Validation API Test" finished-at="2025-12-21T16:07:18 IST" duration-ms="1815">
+      <class name="com.qa.gorest.tests.APISchemaValidationTest">
+        <test-method is-config="true" signature="setUP(java.lang.String)[pri:0, instance:com.qa.gorest.tests.APISchemaValidationTest@a1f72f5]" started-at="2025-12-21T16:07:16 IST" name="setUP" finished-at="2025-12-21T16:07:16 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://gorest.co.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method is-config="true" signature="schemaUserSetUp()[pri:0, instance:com.qa.gorest.tests.APISchemaValidationTest@a1f72f5]" started-at="2025-12-21T16:07:16 IST" name="schemaUserSetUp" finished-at="2025-12-21T16:07:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- schemaUserSetUp -->
+        <test-method signature="checkSchemaValidationTest()[pri:0, instance:com.qa.gorest.tests.APISchemaValidationTest@a1f72f5]" started-at="2025-12-21T16:07:16 IST" name="checkSchemaValidationTest" finished-at="2025-12-21T16:07:18 IST" duration-ms="1803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSchemaValidationTest -->
+      </class> <!-- com.qa.gorest.tests.APISchemaValidationTest -->
+    </test> <!-- Schema Validation API Test -->
+  </suite> <!-- API Regression August 2025 Suite -->
+</testng-results>

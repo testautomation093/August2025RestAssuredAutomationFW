@@ -1,0 +1,6 @@
+com\qa\gorest\tests\CreateUserTest.class
+com\qa\gorest\tests\GetProductAPITest.class
+com\qa\gorest\tests\HttpBinOrgAPITest.class
+com\qa\gorest\tests\AmadeusAPITest.class
+com\qa\gorest\tests\GetUserTest.class
+com\qa\gorest\base\BaseTest.class

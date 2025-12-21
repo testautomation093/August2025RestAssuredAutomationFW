@@ -1,0 +1,1 @@
+{"uuid":"ee11efa6-0949-4b35-bb81-f12133e08c04","name":"Schema Validation API Test","children":["f27f9bbd-c1dc-4084-a2c3-9ec48a26183a"],"befores":[{"name":"setUP","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1765712203150,"stop":1765712203620}],"afters":[],"start":1765712203111,"stop":1765712206627}

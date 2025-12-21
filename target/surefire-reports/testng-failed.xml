@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [API Regression August 2025 Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="1" name="Go Rest Get API Test(failed)" verbose="0">
+    <parameter name="baseURI" value="https://gorest.co.in"/>
+    <classes>
+      <class name="com.qa.gorest.tests.GetUserTest">
+        <methods>
+          <include name="setUP"/>
+          <include name="getSingleUser"/>
+          <include name="getUserSetUp"/>
+          <include name="getAllUsersXMLTest"/>
+        </methods>
+      </class> <!-- com.qa.gorest.tests.GetUserTest -->
+    </classes>
+  </test> <!-- Go Rest Get API Test(failed) -->
+  <test thread-count="1" name="Amadeus API Test(failed)" verbose="0">
+    <parameter name="clientId" value="ZZz9cIK87LwzxcW5K9Ae8TKDDcSHqWX4"/>
+    <parameter name="baseURI" value="https://test.api.amadeus.com"/>
+    <parameter name="clientSecret" value="LDDxRGUeA4ExrTPn"/>
+    <parameter name="grantType" value="client_credentials"/>
+    <classes>
+      <class name="com.qa.gorest.tests.AmadeusAPITest">
+        <methods>
+          <include name="setUP"/>
+          <include name="getAccessTokenSetup"/>
+          <include name="getFlightDetails"/>
+        </methods>
+      </class> <!-- com.qa.gorest.tests.AmadeusAPITest -->
+    </classes>
+  </test> <!-- Amadeus API Test(failed) -->
+</suite> <!-- Failed suite [API Regression August 2025 Suite] -->

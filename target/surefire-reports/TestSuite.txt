@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 25.467 s <<< FAILURE! - in TestSuite
+getSingleUser(com.qa.gorest.tests.GetUserTest)  Time elapsed: 1.047 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at com.qa.gorest.tests.GetUserTest.getSingleUser(GetUserTest.java:47)
+
+getAllUsersXMLTest(com.qa.gorest.tests.GetUserTest)  Time elapsed: 2.173 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.qa.gorest.tests.GetUserTest.getAllUsersXMLTest(GetUserTest.java:86)
+
+getFlightDetails(com.qa.gorest.tests.AmadeusAPITest)  Time elapsed: 1.971 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <500>.
+
+	at com.qa.gorest.tests.AmadeusAPITest.getFlightDetails(AmadeusAPITest.java:43)
+
