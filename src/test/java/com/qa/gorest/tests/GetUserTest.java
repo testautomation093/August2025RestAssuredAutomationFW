@@ -69,7 +69,7 @@ public class GetUserTest extends BaseTest {
 	}
 	
 	
-	@Test (priority=4, enabled=false)
+	@Test (priority=4, enabled=true)
 	public void getAllUsersXMLTest()
 	{
 		Response res=rs.getRequest(GOREST_ENDPOINT_XML, true, true);
